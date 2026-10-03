@@ -108,9 +108,3 @@ DIVIDE (
     CALCULATE ( [Movements], ALLSELECTED ( Movements[ClearedBy] ) )
 )
 ```
-
-## Before publishing
-
-- Check what is inside `REPORT 2.pbix`. Power BI files normally contain the imported data, which can include names and card numbers.
-- Use the anonymised `dashboard_overview.png`. The original showed four clearing officers by name.
-- Get written permission from whoever owns the data.
